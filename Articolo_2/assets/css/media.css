@@ -1,0 +1,21 @@
+@media screen and (max-width:480px){
+    * {
+        font-size: 16px;
+        line-height: 150%;
+    }
+    table, thead, tbody, th, td, tr {
+        display: block;
+        }
+ }
+    
+ img.responsive {
+    width: 100%;
+    height: auto;
+}
+
+
+@media print {
+    header, footer, aside, button, section, iframe, .social{
+        display: none;
+    }
+}
